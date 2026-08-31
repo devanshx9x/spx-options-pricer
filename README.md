@@ -77,4 +77,24 @@ pytest tests/
 - **Expiry time.** Time to expiry is measured to 4:00 PM New York time on
   the listed expiry date. The exact cutoff can differ for some contracts.
 
-  Note : For educational purposes only; not financial advice.
+  ## Example Output
+
+**Terminal Output:**
+```text
+SPY | Spot: 766.21 | Vol (60d): 14.01% | Rate: 4.76% | Expiry: 2026-09-01 | T: 0.0033y
+```
+**Theoretical vs. Actual Pricing (Calls):**
+*(Notice the gap caused by the early-exercise premium of American options versus our European Black-Scholes model).*
+
+![Calls Pricing](images/calls_actual_vs_theoretical.png)
+
+**Theoretical vs. Actual Pricing (Puts):**
+
+![Puts Pricing](images/puts_actual_vs_theoretical.png)
+
+**The Greeks Dashboard (Risk Metrics):**
+
+![Greeks Dashboard](images/greeks_dashboard.png)
+
+## Disclaimer
+**Not Financial Advice:** This project is for educational and informational purposes only. The Black-Scholes theoretical prices and Greeks calculated by this tool do not constitute financial advice, an investment recommendation, or an offer to buy or sell any security.
