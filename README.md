@@ -76,3 +76,5 @@ pytest tests/
   numbers look stale.
 - **Expiry time.** Time to expiry is measured to 4:00 PM New York time on
   the listed expiry date. The exact cutoff can differ for some contracts.
+
+  Note : For educational purposes only; not financial advice.
